@@ -21,7 +21,7 @@ var style_StrutturesuSCeSV_2 = function(feature, resolution){
         labelText = String(exp_label_StrutturesuSCeSV_2_eval_expression(context));
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(20,217,27,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
+        stroke: new ol.style.Stroke({color: 'rgba(13,0,217,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 5.548}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
