@@ -23,7 +23,7 @@ var lyr_Com01012024_WGS84_1 = new ol.layer.Vector({
                 source:jsonSource_Com01012024_WGS84_1, 
                 style: style_Com01012024_WGS84_1,
                 popuplayertitle: 'Com01012024_WGS84',
-                interactive: true,
+                interactive: false,
     title: 'Com01012024_WGS84<br />\
     <img src="styles/legend/Com01012024_WGS84_1_0.png" /> <br />' });
 var format_Dacontrollare_2 = new ol.format.GeoJSON();
