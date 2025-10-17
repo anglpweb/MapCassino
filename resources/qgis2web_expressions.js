@@ -763,17 +763,3 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
-
-
-
-function exp_label_StrutturesuSCeSV_2_eval_expression(context) {
-    // 'Lat. ' || Latitudine || '\nLong. ' || Longitudine || '\nLuce ' || Lunghezza
-
-    var feature = context.feature;
-    
-    if (feature.properties) {
-        return ((((('Lat. ' + feature.get('Latitudine') ) + '\nLong. ') + feature.get('Longitudine') ) + '\nLuce ') + feature.get('Lunghezza') );
-    } else {
-        return ((((('Lat. ' + feature.get('Latitudine') ) + '\nLong. ') + feature.get('Longitudine') ) + '\nLuce ') + feature.get('Lunghezza') );
-    }
-}
